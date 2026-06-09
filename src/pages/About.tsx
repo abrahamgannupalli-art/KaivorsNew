@@ -2,7 +2,7 @@ import { motion } from 'motion/react';
 import Button from '@/src/components/ui/Button';
 import { cn } from '@/src/lib/utils';
 // @ts-ignore
-import founderImg from '@/src/assets/images/founder_abraham_1780543921252.png';
+import founderImg from '@/src/assets/images/founder_exact_portrait_1781025544964.png';
 
 export default function About() {
   const sections = [

@@ -57,7 +57,7 @@ export default function Contact() {
                 </div>
                 <div>
                    <span className="text-[10px] uppercase tracking-widest text-white/30 block mb-1">HQ</span>
-                   <span className="font-serif text-lg">401 Serramonte Dr, Marietta, GA 30068</span>
+                   <span className="font-serif text-lg">801 Serramonte Dr, Marietta, GA 30068</span>
                 </div>
               </div>
             </div>

@@ -1,8 +1,6 @@
 import { motion } from 'motion/react';
 import Button from '@/src/components/ui/Button';
 import { cn } from '@/src/lib/utils';
-// @ts-ignore
-import founderImg from '@/src/assets/images/founder_exact_portrait_1781025544964.png';
 
 export default function About() {
   const sections = [
@@ -85,15 +83,6 @@ export default function About() {
 
       {/* Founder Message */}
       <section className="py-24 px-6 max-w-4xl mx-auto text-center">
-        <div className="relative mb-12">
-          <div className="absolute inset-0 bg-brand-gold/20 blur-3xl rounded-full" />
-          <img 
-            src={founderImg} 
-            alt="Founder Abraham" 
-            className="w-32 h-32 rounded-full object-cover mx-auto relative border-2 border-brand-gold bg-brand-navy"
-            referrerPolicy="no-referrer"
-          />
-        </div>
         <h3 className="font-serif text-2xl mb-6 text-brand-gold">A Message from our Founder</h3>
         <p className="text-white/60 italic leading-relaxed mb-10">
           "Our goal is to ignite a passion for character, wisdom, and leadership in every heart. We want to see leaders rise, communities grow, and lives transformed through the power of timeless truths told through a modern visual lens."

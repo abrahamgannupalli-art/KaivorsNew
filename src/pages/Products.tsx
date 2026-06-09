@@ -1,6 +1,8 @@
 import { motion } from 'motion/react';
 import { Book, Newspaper, Smartphone, FileText, ChevronRight } from 'lucide-react';
 import Button from '@/src/components/ui/Button';
+// @ts-ignore
+import stormImg from '@/src/assets/images/the_storm_kingdom_chronicles_1781032543150.png';
 
 export default function Products() {
   const categories = [
@@ -90,7 +92,7 @@ export default function Products() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-16 items-center">
             <div className="w-full md:w-1/2">
                 <img 
-                  src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=2698&auto=format&fit=crop" 
+                  src={stormImg} 
                   alt="Featured Product" 
                   className="w-full h-auto rounded-lg shadow-2xl border border-white/10"
                   referrerPolicy="no-referrer"

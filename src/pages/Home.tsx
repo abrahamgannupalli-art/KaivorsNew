@@ -31,7 +31,7 @@ export default function Home() {
               Vivid <span className="italic font-light">stories.</span> <br/>Transformational <span className="text-brand-gold">journeys.</span>
             </h1>
             <p className="text-lg text-white/50 font-light leading-relaxed max-w-md mb-12 italic">
-              Empowering global ministries, church leaders, and families with cinematic storytelling, character-based leadership frameworks, and global digital systems under <strong className="text-white font-medium">Kaivors</strong>.
+              Empowering organizations, community leaders, and individuals with cinematic storytelling, character-based leadership frameworks, and premium digital systems under <strong className="text-white font-medium">Kaivors</strong>.
             </p>
           </motion.div>
           
@@ -44,8 +44,8 @@ export default function Home() {
             <Button onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
               Explore the Journey
             </Button>
-            <Link to="/shop">
-              <Button variant="outline">Shop Now</Button>
+            <Link to="/products">
+              <Button variant="outline">View Products</Button>
             </Link>
           </motion.div>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
           {/* Tile-like Overlay for Featured Preview */}
           <div className="absolute inset-0 flex flex-col">
              <div className="flex-1 p-12 bg-white/5 border-b border-white/5 flex flex-col justify-end backdrop-blur-sm">
-                <h3 className="text-brand-gold uppercase tracking-[0.2em] text-[11px] font-bold mb-4">Latest Revelation</h3>
+                <h3 className="text-brand-gold uppercase tracking-[0.2em] text-[11px] font-bold mb-4">Featured Release</h3>
                 <h2 className="text-4xl font-serif mb-4">21 Days with Jesus</h2>
                 <Link to="/products" className="text-[10px] uppercase tracking-widest font-bold text-white/40 hover:text-brand-gold transition-colors">Learn More &rarr;</Link>
              </div>
@@ -90,8 +90,8 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-brand-gold uppercase tracking-[0.3em] text-[10px] mb-4 block">The Pillars of Kaivors</span>
-            <h2 className="font-serif text-4xl mb-4 text-gradient-gold">Our Discipleship Ecosystem</h2>
-            <p className="text-white/40 italic max-w-xl mx-auto">We integrate visual narratives, leadership formation, and advanced digital technologies to support spiritual development.</p>
+            <h2 className="font-serif text-4xl mb-4 text-gradient-gold">Our Mentorship Ecosystem</h2>
+            <p className="text-white/40 italic max-w-xl mx-auto">We integrate visual narratives, leadership formation, and advanced digital technologies to support personal and character development.</p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -116,7 +116,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-brand-gold transition-colors">Kingdom Chronicles</h3>
                   <p className="text-sm text-white/50 leading-relaxed italic mb-6">
-                    Cinematic, story-driven visual narratives designed to build strong daily faith habits. Experience the Gospels and historic stories like never before.
+                    Cinematic, story-driven visual narratives designed to build daily habits of reflection and wisdom. Experience historical epics and wisdom-led stories like never before.
                   </p>
                   <ul className="space-y-2 text-xs text-white/70 mb-8">
                     <li className="flex items-center gap-2">
@@ -161,7 +161,7 @@ export default function Home() {
                 <div>
                   <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-brand-gold transition-colors">SouLead</h3>
                   <p className="text-sm text-white/50 leading-relaxed italic mb-6">
-                    A comprehensive, character-based leadership framework engineered for corporate groups, churches, pastors, and emerging global leaders.
+                    A comprehensive, character-based leadership framework engineered for corporate groups, community organizations, and emerging global leaders.
                   </p>
                   <ul className="space-y-2 text-xs text-white/70 mb-8">
                     <li className="flex items-center gap-2">
@@ -184,7 +184,7 @@ export default function Home() {
               </div>
             </motion.div>
 
-            {/* Pillar 3: Digital Discipleship */}
+            {/* Pillar 3: Digital Mentorship */}
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="relative aspect-[16/10] overflow-hidden">
                 <img 
                   src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2674&auto=format&fit=crop" 
-                  alt="Digital Discipleship" 
+                  alt="Digital Mentorship" 
                   className="w-full h-full object-cover opacity-75 group-hover:scale-105 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
@@ -204,9 +204,9 @@ export default function Home() {
               </div>
               <div className="p-8 flex-grow flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-brand-gold transition-colors">Digital Discipleship</h3>
+                  <h3 className="font-serif text-2xl text-white mb-4 group-hover:text-brand-gold transition-colors">Digital Mentorship</h3>
                   <p className="text-sm text-white/50 leading-relaxed italic mb-6">
-                    Empowering ministries and networks globally with modern custom platforms, executive trainings, and dynamic systems.
+                    Empowering organisations and networks globally with modern custom platforms, executive trainings, and dynamic systems.
                   </p>
                   <ul className="space-y-2 text-xs text-white/70 mb-8">
                     <li className="flex items-center gap-2">
@@ -215,7 +215,7 @@ export default function Home() {
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-                      Church Technology & Mobile Platforms
+                      Community Technology & Mobile Platforms
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
@@ -277,8 +277,8 @@ export default function Home() {
               {[
                 { title: 'Stories', icon: <BookOpen className="w-6 h-6" />, desc: 'Captivating narratives that illuminate truth.' },
                 { title: 'Reflection', icon: <Sparkles className="w-6 h-6" />, desc: 'Deep contemplation to internalize wisdom.' },
-                { title: 'Transformation', icon: <Heart className="w-6 h-6" />, desc: 'Life-changing shifts in character and faith.' },
-                { title: 'Leadership', icon: <Workflow className="w-6 h-6" />, desc: 'Empowering others to advance the Kingdom.' },
+                { title: 'Transformation', icon: <Heart className="w-6 h-6" />, desc: 'Life-changing shifts in character and values.' },
+                { title: 'Leadership', icon: <Workflow className="w-6 h-6" />, desc: 'Empowering others to achieve peak ethical potential.' },
               ].map((step, idx) => (
                 <div key={idx} className="relative z-10 text-center px-4">
                   <div className="w-16 h-16 rounded-full glass-panel flex items-center justify-center mx-auto mb-6 border-brand-gold/20">
@@ -308,9 +308,9 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
              {[
-               { name: 'Kingdom Chronicles Co-Ops', desc: 'Deploy cinematic visual story bundles into congregations, small groups, or academic curriculums.' },
+               { name: 'Kingdom Chronicles Co-Ops', desc: 'Deploy cinematic visual story bundles into learning cohorts, small study groups, or academic curriculums.' },
                { name: 'SouLead Framework', desc: 'In-depth workshops focusing on character-based leadership and custom relational coaching.' },
-               { name: 'Digital Discipleship Systems', desc: 'Equipping global ministries and church networks with complete custom software and mobile app setups.' }
+               { name: 'Digital Mentorship Systems', desc: 'Equipping global learning networks and community cohorts with complete custom software and mobile app setups.' }
              ].map((service) => (
                 <div key={service.name} className="group glass-panel p-10 rounded-lg hover:bg-brand-gold/5 transition-all duration-300">
                   <h4 className="font-serif text-xl mb-4 group-hover:text-brand-gold transition-colors">{service.name}</h4>
@@ -342,11 +342,11 @@ export default function Home() {
          </div>
       </section>
 
-      {/* Section 7 — Shop Preview */}
+      {/* Section 7 — Offerings Preview */}
       <section className="py-24 px-6 bg-white text-brand-black">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
-            <h2 className="font-serif text-4xl mb-4">Ecosystem Product Offerings</h2>
+            <h2 className="font-serif text-4xl mb-4">Ecosystem Key Offerings</h2>
             <div className="w-16 h-[2px] bg-brand-black/20 mx-auto" />
           </div>
 
@@ -354,7 +354,7 @@ export default function Home() {
             {[
               { name: '21 Days with Jesus Series', cat: 'Kingdom Chronicles', img: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2574&auto=format&fit=crop' },
               { name: 'The Soul Journey Tool', cat: 'SouLead', img: 'https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=2670&auto=format&fit=crop' },
-              { name: 'Leader Trainings & Platform Setup', cat: 'Digital Discipleship', img: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2674&auto=format&fit=crop' },
+              { name: 'Leader Trainings & Platform Setup', cat: 'Digital Mentorship', img: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2674&auto=format&fit=crop' },
             ].map((item, idx) => (
               <motion.div 
                 key={idx}
@@ -371,8 +371,8 @@ export default function Home() {
                 </div>
                 <span className="text-[10px] uppercase tracking-widest text-neutral-400 mb-2 block">{item.cat}</span>
                 <h4 className="font-serif text-xl mb-4 group-hover:text-brand-gold transition-colors">{item.name}</h4>
-                <Link to="/shop" className="text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
-                  Shop Now <ArrowRight size={14} />
+                <Link to="/products" className="text-xs font-bold uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all">
+                  Learn More <ArrowRight size={14} />
                 </Link>
               </motion.div>
             ))}
@@ -384,8 +384,8 @@ export default function Home() {
       <section className="py-24 px-6 text-center bg-[#050505]">
         <h2 className="font-serif text-5xl mb-12">Start the journey today.</h2>
         <div className="flex flex-col sm:flex-row gap-6 justify-center">
-          <Link to="/shop">
-            <Button>Shop Now</Button>
+          <Link to="/products">
+            <Button>Explore Ecosystem</Button>
           </Link>
           <Link to="/contact">
             <Button variant="outline">Contact Us</Button>

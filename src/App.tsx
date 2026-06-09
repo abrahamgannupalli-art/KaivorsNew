@@ -17,7 +17,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
 import Services from './pages/Services';
-import Shop from './pages/Shop';
 import Contact from './pages/Contact';
 
 function ScrollToTop() {
@@ -38,7 +37,6 @@ function AnimatedRoutes() {
         <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
         <Route path="/products" element={<PageWrapper><Products /></PageWrapper>} />
         <Route path="/services" element={<PageWrapper><Services /></PageWrapper>} />
-        <Route path="/shop" element={<PageWrapper><Shop /></PageWrapper>} />
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
       </Routes>
     </AnimatePresence>

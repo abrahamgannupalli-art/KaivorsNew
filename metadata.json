@@ -1,6 +1,6 @@
 {
   "name": "Kaivors",
-  "description": "Vivid Stories. Transformational journeys. Empowering individuals and communities through Kingdom Chronicles, SouLead, and Digital Discipleship.",
+  "description": "Vivid Stories. Transformational journeys. Empowering individuals and communities through Kingdom Chronicles, SouLead, and Digital Mentorship.",
   "requestFramePermissions": [],
-  "majorCapabilities": []
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

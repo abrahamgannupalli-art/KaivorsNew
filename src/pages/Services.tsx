@@ -7,7 +7,7 @@ export default function Services() {
     {
       icon: <Award className="w-10 h-10" />,
       title: "Kingdom Chronicles Co-Ops",
-      desc: "Deploy cinematic visual story bundles like 21 Days with Jesus and Moses directly into your church congregations, home groups, or academic curriculums.",
+      desc: "Deploy cinematic visual story bundles like 21 Days with Jesus and Moses directly into your learning cohorts, study groups, or character-development curriculums.",
       tags: ["Cinematic Stories", "Group Curriculums", "Campaign Materials"]
     },
     {
@@ -18,8 +18,8 @@ export default function Services() {
     },
     {
       icon: <Handshake className="w-10 h-10" />,
-      title: "Digital Discipleship Systems",
-      desc: "Equipping administrators and global church groups with complete software setups, custom network portals, global ecosystem guidance, and mobile app support.",
+      title: "Digital Mentorship Platforms",
+      desc: "Equipping educators, group administrators, and leadership networks with complete software setups, custom portals, ecosystem guidance, and mobile app support.",
       tags: ["Platform Architectures", "Leader Trainings", "Digital Ecosystems"]
     }
   ];
@@ -31,7 +31,7 @@ export default function Services() {
           <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] mb-4 block">Empowerment</span>
           <h1 className="font-serif text-5xl md:text-7xl mb-8">Transformation <br /><span className="text-gradient-gold italic">& Leadership</span></h1>
           <p className="text-white/50 italic leading-relaxed">
-            We provide strategic guidance and spiritual equipping for those called to lead with integrity. Our services are designed to activate your purpose and refine your character.
+            We provide strategic guidance and character alignment for those called to lead with integrity. Our services are designed to activate your purpose, refine your ethics, and clarify your vision.
           </p>
         </div>
 
@@ -66,7 +66,7 @@ export default function Services() {
            <h2 className="font-serif text-4xl md:text-5xl mb-6">Ready to align your mission?</h2>
            <p className="text-brand-black/70 mb-12 max-w-2xl mx-auto font-medium">Book a 30-minute discovery session with our leadership team today.</p>
            <Button variant="secondary" className="px-16 scale-110">Book a Discovery Session</Button>
-           <p className="mt-8 text-[10px] uppercase tracking-[0.2em] font-bold opacity-40">† Availability is limited</p>
+           <p className="mt-8 text-[10px] uppercase tracking-[0.2em] font-bold opacity-40">* Availability is limited</p>
         </div>
       </section>
 

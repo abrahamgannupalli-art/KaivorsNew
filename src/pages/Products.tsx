@@ -10,9 +10,9 @@ export default function Products() {
       icon: <Book />,
       items: [
         { name: '21 Days with Jesus', style: 'Cinematic visual story series' },
-        { name: 'Moses: Journey to the Promised', style: 'Old Testament epic narrative' },
+        { name: 'Moses: Journey to the Promised', style: 'Historical epic narrative' },
         { name: 'Apostles Creed Graphic Novel', style: 'Cinematic comic narrative' },
-        { name: 'Ancient Witnesses collection', style: 'Illustrated historical devotionals' }
+        { name: 'Ancient Witnesses collection', style: 'Illustrated historical journals' }
       ]
     },
     {
@@ -20,7 +20,7 @@ export default function Products() {
       name: 'SouLead',
       icon: <FileText />,
       items: [
-        { name: 'The Soul Journey Tool', style: 'Interactive spiritual diagnostic' },
+        { name: 'The Soul Journey Tool', style: 'Interactive character diagnostic' },
         { name: 'SouLead Executive Framework', style: 'Character-based leadership guides' },
         { name: 'Corporate Alignment Syllabus', style: 'Workshops & seminars kit' },
         { name: 'Daily Alignment Planner', style: 'Hardcover journal' }
@@ -28,13 +28,13 @@ export default function Products() {
     },
     {
       id: 'digital',
-      name: 'Digital Discipleship',
+      name: 'Digital Mentorship',
       icon: <Smartphone />,
       items: [
-        { name: 'Trainings for Church Leaders', style: 'Digital video masterclasses' },
-        { name: 'Custom Visual Discipleship Platforms', style: 'SaaS & native app setups' },
+        { name: 'Trainings for Community Leaders', style: 'Digital video masterclasses' },
+        { name: 'Custom Visual Mentorship Platforms', style: 'SaaS & native app setups' },
         { name: 'Global Network Integrations', style: 'Global ecosystem consulting' },
-        { name: 'Reflections Mobile Platform', style: 'Daily devotion application' }
+        { name: 'Reflections Mobile Platform', style: 'Daily mindfulness application' }
       ]
     }
   ];
@@ -46,7 +46,7 @@ export default function Products() {
           <div className="text-center mb-20">
             <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] mb-4 block">Our Catalog</span>
             <h1 className="font-serif text-5xl md:text-7xl mb-6">Explore the <span className="text-gradient-gold">Ecosystem</span></h1>
-            <p className="text-white/40 italic max-w-xl mx-auto">From cinematic comics to deep leadership insights, discover resources for every step of your spiritual journey.</p>
+            <p className="text-white/40 italic max-w-xl mx-auto">From cinematic stories to deep leadership insights, discover resources for every step of your personal and professional growth journey.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -98,9 +98,9 @@ export default function Products() {
             </div>
             <div className="w-full md:w-1/2">
                 <span className="text-brand-gold text-[10px] uppercase tracking-widest mb-4 block">Signature Experience</span>
-                <h2 className="font-serif text-5xl mb-8 leading-tight">21 Days with Jesus <br /><span className="italic text-brand-gold opacity-80">Cinematic Devotional</span></h2>
+                <h2 className="font-serif text-5xl mb-8 leading-tight">21 Days with Jesus <br /><span className="italic text-brand-gold opacity-80">Cinematic Classic</span></h2>
                 <p className="text-white/50 mb-10 leading-relaxed italic">
-                  Immerse your soul in the daily steps of Christ. This flagship visual experience walks you through 21 distinct moments of the Gospels, integrating modern high-fidelity graphics with deep reflections from the SouLead character-building framework.
+                  Explore the visual steps and timeless leadership lessons of historical narratives. This flagship visual experience walks you through 21 distinct moments of the historical record, integrating modern high-fidelity graphics with deep reflections from the SouLead character-building framework.
                 </p>
                 <Button>Begin the Journey</Button>
             </div>

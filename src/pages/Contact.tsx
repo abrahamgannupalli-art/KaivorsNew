@@ -10,7 +10,7 @@ export default function Contact() {
           <div>
             <span className="text-brand-gold uppercase tracking-[0.4em] text-[10px] mb-4 block">Connect with us</span>
             <h1 className="font-serif text-5xl md:text-7xl mb-8">Let's start the <br /><span className="text-gradient-gold italic">Conversation.</span></h1>
-            <p className="text-white/50 mb-12 italic leading-relaxed">Whether you're looking for church partnerships, leadership coaching, or simply want to share your testimony—we are here to listen and engage.</p>
+            <p className="text-white/50 mb-12 italic leading-relaxed">Whether you're looking for organizational partnerships, leadership coaching, or simply want to inquire about our frameworks—we are here to listen and engage.</p>
             
             <div className="space-y-10">
               <div className="flex gap-6 items-center">
@@ -29,7 +29,7 @@ export default function Contact() {
                 </div>
                 <div>
                    <span className="text-[10px] uppercase tracking-widest text-white/30 block mb-1">Phone</span>
-                   <span className="font-serif text-lg">+1 (555) 000-KING</span>
+                   <span className="font-serif text-lg">+1 (555) 000-LEAD</span>
                 </div>
               </div>
 
@@ -67,12 +67,12 @@ export default function Contact() {
                   <label className="text-[10px] uppercase tracking-widest text-white/40 ml-1">Inquiry Type</label>
                   <select className="w-full bg-white/5 border border-white/10 rounded-sm px-4 py-3 focus:border-brand-gold outline-none transition-colors appearance-none">
                     <option className="bg-brand-black">General Inquiry</option>
-                    <option className="bg-brand-black">Church Partnership</option>
-                    <option className="bg-brand-black">School Partnership</option>
-                    <option className="bg-brand-black">Organization Partnership</option>
-                    <option className="bg-brand-black">Sponsorship</option>
-                    <option className="bg-brand-black">Coaching/Counseling</option>
-                    <option className="bg-brand-black">Wholesale Inquiry</option>
+                    <option className="bg-brand-black">Enterprise & Corporate Group Partnership</option>
+                    <option className="bg-brand-black">School & Academic Partnership</option>
+                    <option className="bg-brand-black">Non-Profit & Community Partnership</option>
+                    <option className="bg-brand-black">Sponsorship & Advertising</option>
+                    <option className="bg-brand-black">Coaching & Advising</option>
+                    <option className="bg-brand-black">Wholesale & Distribution Inquiry</option>
                   </select>
                 </div>
 

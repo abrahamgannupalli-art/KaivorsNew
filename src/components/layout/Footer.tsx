@@ -9,7 +9,7 @@ export default function Footer() {
             <span className="font-serif text-2xl tracking-wider text-white">KAI<span className="text-brand-gold">VORS</span></span>
           </Link>
           <p className="text-white/50 max-w-md leading-relaxed italic">
-            Vivid Stories. Transformational journeys. Empowering global ministries, schools, and families through modern visual media, leadership frameworks, and global digital discipleship platforms.
+            Vivid Stories. Transformational journeys. Empowering organisations, educators, and leaders through modern visual media, leadership frameworks, and global digital systems.
           </p>
         </div>
         

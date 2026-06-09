@@ -8,26 +8,26 @@ export default function About() {
   const sections = [
     {
       title: "Our Story",
-      content: "Kaivors was born out of a deep-seated vision to ignite spiritual breakthroughs and character development across generations. We believe that visual imagery, premium leadership tools, and robust digital integration can elevate how global ministries, leaders, and families engage with eternal truth. Under the Kaivors umbrella, we publish the critically-acclaimed Kingdom Chronicles visual discipleship series, instruct with the SouLead character framework, and engineer Digital Discipleship technology ecosystems."
+      content: "Kaivors was born out of a deep-seated vision to ignite personal breakthroughs, purposeful expansion, and character development across generations. We believe that visual imagery, premium leadership tools, and robust digital integration can elevate how global organizations, leaders, and families engage with timeless wisdom and life values. Under the Kaivors umbrella, we publish the critically-acclaimed Kingdom Chronicles visual wisdom series, instruct with the SouLead character framework, and engineer digital mentorship technology ecosystems."
     },
     {
       title: "Mission Statement",
-      content: "To create vivid stories and guide transformational journeys that empower individuals and organizations to walk in divine purpose.",
+      content: "To create vivid stories and guide transformational journeys that empower individuals and organizations to realize their ultimate purpose and potential.",
       isQuote: true
     },
     {
       title: "Vision Statement",
-      content: "To pioneer a globally connected, tech-driven discipleship ecosystem that builds faith and outstanding leadership.",
+      content: "To pioneer a globally connected, tech-driven mentorship ecosystem that builds character and outstanding leadership.",
       isQuote: true
     }
   ];
 
   const values = [
-    { name: "Truth", desc: "Upholding the eternal Word of God in every story." },
-    { name: "Compassion", desc: "Leading with hearts that reflect Christ's love." },
+    { name: "Truth", desc: "Upholding universal truth and integrity in every story." },
+    { name: "Compassion", desc: "Leading with empathy, responsiveness, and genuine human care." },
     { name: "Integrity", desc: "Excellence and honesty in everything we create." },
     { name: "Transformation", desc: "Resources designed for real, lasting life change." },
-    { name: "Purpose", desc: "Helping every individual find their Kingdom calling." }
+    { name: "Purpose", desc: "Helping every individual find their unique potential and calling." }
   ];
 
   return (
@@ -96,7 +96,7 @@ export default function About() {
         </div>
         <h3 className="font-serif text-2xl mb-6 text-brand-gold">A Message from our Founder</h3>
         <p className="text-white/60 italic leading-relaxed mb-10">
-          "Our goal is not just to sell books, but to ignite a passion for Christ in every heart. We want to see leaders rise, communities grow, and lives transformed through the power of God's Word told through a modern lens."
+          "Our goal is to ignite a passion for character, wisdom, and leadership in every heart. We want to see leaders rise, communities grow, and lives transformed through the power of timeless truths told through a modern visual lens."
         </p>
         <div className="font-serif text-white/80">John Abraham G. <br /><span className="text-[10px] uppercase tracking-widest text-brand-gold">Founder & CEO</span></div>
       </section>

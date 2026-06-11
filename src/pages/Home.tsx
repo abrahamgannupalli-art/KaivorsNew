@@ -3,6 +3,8 @@ import Button from '@/src/components/ui/Button';
 import { ArrowRight, BookOpen, Users, Workflow, Sparkles, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/src/lib/utils';
+// @ts-ignore
+import stormImg from '@/src/assets/images/the_storm_kingdom_chronicles_1781032543150.png';
 
 const fadeIn = {
   initial: { opacity: 0, y: 20 },
@@ -54,9 +56,9 @@ export default function Home() {
         <div className="w-full md:w-1/2 relative bg-brand-navy/30">
           <div className="absolute inset-0 bg-gradient-to-l from-brand-black/40 to-transparent z-10" />
           <img 
-            src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?q=80&w=2670&auto=format&fit=crop" 
+            src={stormImg} 
             alt="Cinematic atmosphere" 
-            className="w-full h-full object-cover grayscale opacity-60"
+            className="w-full h-full object-cover opacity-65"
             referrerPolicy="no-referrer"
           />
           
@@ -104,7 +106,7 @@ export default function Home() {
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2574&auto=format&fit=crop" 
+                  src={stormImg} 
                   alt="Kingdom Chronicles" 
                   className="w-full h-full object-cover opacity-75 group-hover:scale-105 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -352,7 +354,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { name: '21 Days with Jesus Series', cat: 'Kingdom Chronicles', img: 'https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=2574&auto=format&fit=crop' },
+              { name: '21 Days with Jesus Series', cat: 'Kingdom Chronicles', img: stormImg },
               { name: 'The Soul Journey Tool', cat: 'SouLead', img: 'https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=2670&auto=format&fit=crop' },
               { name: 'Leader Trainings & Platform Setup', cat: 'Digital Mentorship', img: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2674&auto=format&fit=crop' },
             ].map((item, idx) => (
